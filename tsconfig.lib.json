@@ -1,9 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/chrysalis/out-tsc",
-    "declaration": true,
-    "types": ["node"]
+    "declaration": true
   },
   "exclude": ["./tests/*.ts", "./tests/**/*.ts"]
 }

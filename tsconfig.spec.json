@@ -1,9 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/chrysalis/out-tsc",
-    "module": "commonjs",
-    "types": ["jest", "jest-extended", "node"]
+    "types": ["jest", "jest-extended"]
   },
   "include": ["./tests/*.test.ts", "./tests/**/*.test.ts"]
 }

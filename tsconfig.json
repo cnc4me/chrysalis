@@ -2,14 +2,8 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": ".",
-    "module": "CommonJS",
-    "strict": true,
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "types": ["node", "jest"]
+    "outDir": "../../dist/chrysalis/out-tsc",
+    "types": ["node"]
   },
   "include": ["./src/*.ts", "./src/**/*.ts"],
   "references": [
